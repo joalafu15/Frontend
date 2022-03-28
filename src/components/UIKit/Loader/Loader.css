@@ -1,0 +1,15 @@
+.modal-content {
+  border: unset !important;
+  background: transparent !important;
+}
+
+.modal-backdrop {
+  background-color: #ffffff;
+}
+
+.loading {
+  margin: auto;
+}
+.local-loading {
+  margin: auto;
+}

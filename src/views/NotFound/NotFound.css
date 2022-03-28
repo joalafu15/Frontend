@@ -1,0 +1,23 @@
+.error-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.error-actions {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.error-actions .btn {
+  margin-right: 10px;
+}
+.middle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  margin: 0 auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+}

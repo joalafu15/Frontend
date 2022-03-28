@@ -1,0 +1,83 @@
+.main-dashboard-header {
+  margin-bottom: 70px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.phases {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.phase-1 > .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phase-1 > .row > .col-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.module-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 25px;
+  background-color: #ffffff;
+  border-radius: 12px !important;
+  box-shadow: 0px 0px 20px rgb(20 25 67 / 5%);
+  transition: box-shadow 0.5s ease;
+  text-align: center;
+  font-size: 14px !important;
+  color: #808097;
+  font-weight: 400 !important;
+  margin: 10px;
+}
+
+.module-box:hover {
+  color: black;
+  box-shadow: 0px 0px 20px rgb(20 25 67 / 20%);
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.module-box.disabled {
+  opacity: 0.5;
+  cursor: default;
+  box-shadow: 0px 0px 20px rgb(20 25 67 / 5%);
+}
+
+.phase-title {
+  font-family: 'Tajawal', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.application-status {
+  width: 80%;
+  padding: 16px;
+  background-color: var(--system-bg);
+  color: white;
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.notification-bar {
+  font-weight: 400 !important;
+}

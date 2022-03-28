@@ -1,0 +1,60 @@
+.job-offer {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: initial;
+}
+
+.job-offer > .job-offer-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 20px rgb(20 25 67 / 10%) !important;
+    transition: box-shadow 0.5s ease !important;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.job-offer > .job-offer-details label {
+    text-align: right;
+}
+
+.job-offer > .job-offer-details > .job-offer-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job-offer-section-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.job-offer-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;;
+    margin-top: 20px;
+}
+
+.job-offer-footer > .btn {
+    width: 200px;
+    padding: 16px 25px;
+    margin: 6px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .job-offer {
+        width: 100%;
+    }
+}

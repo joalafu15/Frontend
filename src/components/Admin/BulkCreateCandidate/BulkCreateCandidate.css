@@ -1,0 +1,70 @@
+.bulk-create-candidate {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bulk-create-candidate > .bulk-create-candidate-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  padding: 25px 20px;
+  box-shadow: 0px 0px 20px rgb(20 25 67 / 10%) !important;
+  transition: box-shadow 0.5s ease !important;
+  border-radius: 12px;
+  background-color: #ffffff;
+  text-align: right;
+}
+
+.bulk-create-candidate
+  > .bulk-create-candidate-details
+  > .bulk-create-candidate-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bulk-create-candidate-section-col {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.bulk-create-candidate-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.bulk-create-candidate-footer > .btn {
+  width: 200px;
+  padding: 16px 25px;
+  margin: 6px;
+}
+
+.custom-file-label::after {
+  left: 0;
+  right: auto;
+  border-left-width: 0;
+  border-right: inherit;
+}
+
+@media screen and (max-width: 992px) {
+  .bulk-create-candidate {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .select-dof {
+    width: 100%;
+  }
+}

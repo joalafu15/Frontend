@@ -1,0 +1,9 @@
+node_modules
+build
+yarn.lock
+
+# General
+.DS_Store
+
+# Environment file
+.env
